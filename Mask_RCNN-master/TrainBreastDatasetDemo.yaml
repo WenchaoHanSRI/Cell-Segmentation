@@ -1,0 +1,5 @@
+input: /E:/BreastData/Test/stage1_train/
+subset: stage1_train
+output: results/BreastTestSubmit
+weights: E:/BreastTransTrainAll/mask_rcnn_cell_preDilateFL.h5
+

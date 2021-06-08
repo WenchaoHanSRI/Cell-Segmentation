@@ -1,0 +1,5 @@
+input: /home/whan/MaskRCNN/Data/BreastData/TrainAll/
+subset: stage1_train
+output: results/BreastTestSubmit
+weights: COCO
+
