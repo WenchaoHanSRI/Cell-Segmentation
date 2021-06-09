@@ -23,6 +23,8 @@ conda install cudnn=7.6.4
 
 The setup is not limit to using conda environment as long as the packages and dependencies are properly installed in the environment.
 
-The code was also tested on Windows 10 based machine. Detection and validation worked properly. For training, users may need to change the multiprocessing=False. Details can refer:
+The code was also tested on Windows 10 based machine. Detection and validation worked properly. For training, users may need to change the multiprocessing=False. 
+
+Details can refer:
 
 https://github.com/matterport/Mask_RCNN/issues/93
