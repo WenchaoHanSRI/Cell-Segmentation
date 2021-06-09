@@ -5,17 +5,17 @@ This project provides code for instance single-cell segmentation for the multipl
 Using trained model for segmentation with our example images:
 
 ```
-python cellseg2finetune.py detect --yaml Val.yaml
+python cellseg2finetune.py detect --yaml=Val.yaml
 ```
 
 Validating the trained model to manual annotations:
 ```
-python cellseg2finetune.py val --yaml Val.yaml
+python cellseg2finetune.py val --yaml=Val.yaml
 ```
 
 Train the model using published dataset:
 ```
-python cellseg2finetune.py train --yaml Train.yaml
+python cellseg2finetune.py train --yaml=Train.yaml
 ```
 
 
