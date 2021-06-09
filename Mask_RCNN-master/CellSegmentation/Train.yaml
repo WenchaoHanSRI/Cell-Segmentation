@@ -1,0 +1,5 @@
+input: E:/BreastData/TrainAll
+subset: stage1_train
+output: trainmodel/BreastTestSubmit
+weights: E:/MaskRCNNlocal/Trained_Weights/Breast/BreastTransTrainAll/mask_rcnn_cell_0039.h5
+
