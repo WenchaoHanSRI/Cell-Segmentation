@@ -23,7 +23,7 @@ conda install cudnn=7.6.4
 
 The setup is not limit to using conda environment as long as the packages and dependencies are properly installed in the environment.
 
-The code was also tested on Windows 10 based machine. Detection and validation worked properly. For training, users may need to change the multiprocessing=False. 
+The code was also tested on Windows 10 based machine. Single core was used for training on windows machine. 
 
 Details can refer:
 
