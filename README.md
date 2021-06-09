@@ -1,6 +1,23 @@
 # Cell-Segmentation
 This project provides code for instance single-cell segmentation for the multiplexed images.
 
+## Getting started
+Using trained model for segmentation with our example images:
+
+```
+python cellseg2finetune.py detect --yaml Val.yaml
+```
+
+Validating the trained model to manual annotations:
+```
+python cellseg2finetune.py val --yaml Val.yaml
+```
+
+Train the model using published dataset:
+```
+python cellseg2finetune.py train --yaml Train.yaml
+```
+
 
 ## Environment setup
 The code was tested on a linux machine with python 3.6 and packages that specified in the requirement.txt.
