@@ -1,0 +1,4 @@
+input: TestData/OvarianDataTestSample
+subset: stage1_train
+output: results/OvarianTrainAll
+weights: Trained_Weights/Ovarian/OvarianTransAllROIs/mask_rcnn_cell_0039.h5
