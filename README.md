@@ -47,7 +47,7 @@ conda install cudnn=7.6.4
 
 The setup is not limit to using conda environment as long as the packages and dependencies are properly installed in the environment.
 
-The code was also tested on Windows 10 based machine. Single core was used for training on windows machine. 
+The code was also tested on Windows 10 based machine. 
 
 Details can refer:
 
