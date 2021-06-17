@@ -49,6 +49,6 @@ The setup is not limit to using conda environment as long as the packages and de
 
 The code was also tested on Windows 10 based machine. 
 
-Details can refer:
+Training issue using Window machine is adapted based on the report:
 
 https://github.com/matterport/Mask_RCNN/issues/93
