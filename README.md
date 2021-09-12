@@ -26,9 +26,7 @@ python cellseg2finetune.py train --yaml=train.yaml
 
 For external dataset:
 
-Testing sample data can be downloaded via: https://drive.google.com/drive/folders/17zJ92-qxMwi15Fpa0lc9At6deYh604A2?usp=sharing
-
-This dataset is obtained from
+Testing sample data can be downloaded via: https://drive.google.com/drive/folders/17zJ92-qxMwi15Fpa0lc9At6deYh604A2?usp=sharing. The raw dataset is obtained from https://warwick.ac.uk/fac/sci/dcs/research/tia/data/micronet. We made the following changes from the raw dataset: 1) we creat the color images from the raw dataset, 2) we expanded the original contours to allow touching contours. 
 
 since the exteranl dataset has much larger imgae size, we used multiprocssing for computing validation results, 
 the code utilize all the available cores. The code below is recommened when the computing resource has more that 4 CPU core to use. Much more cores (e.g. 48 or more) are recommened for efficiency.
