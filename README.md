@@ -7,7 +7,7 @@ https://drive.google.com/drive/folders/1fqgDMQCTEvkSNKR37GJTYXzyXHdl0RAm?usp=sha
 
 The downloaded folder "Trained_Weights" need to put under the root directory.
 
-Using trained model for segmentation with our example images:
+Using trained model for segmentation with our example images of ovarian cancer dataset:
 
 ```
 python cellseg2finetune.py detect --yaml=val.yaml
@@ -17,6 +17,7 @@ Validating the trained model to manual annotations:
 ```
 python cellseg2finetune.py val --yaml=val.yaml
 ```
+Users may change the val.yaml file to perform inferencing/validation for example images of breast cancer dataset.
 
 Train the model using published dataset:
 ```
