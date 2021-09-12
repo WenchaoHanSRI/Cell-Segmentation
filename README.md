@@ -26,6 +26,10 @@ python cellseg2finetune.py train --yaml=train.yaml
 
 For external dataset:
 
+Testing sample data can be downloaded via: https://drive.google.com/drive/folders/17zJ92-qxMwi15Fpa0lc9At6deYh604A2?usp=sharing
+
+This dataset is obtained from
+
 since the exteranl dataset has much larger imgae size, we used multiprocssing for computing validation results, 
 the code utilize all the available cores. The code below is recommened when the computing resource has more that 4 CPU core to use. Much more cores (e.g. 48 or more) are recommened for efficiency.
 First, perform the segmentation:
