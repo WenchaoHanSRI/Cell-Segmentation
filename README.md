@@ -4,6 +4,7 @@ This project provides code for instance single-cell segmentation for the multipl
 ## Getting started
 Trained weights for the three testing datasets can be downloaded:
 https://drive.google.com/drive/folders/1fqgDMQCTEvkSNKR37GJTYXzyXHdl0RAm?usp=sharing
+
 The downloaded folder "Trained_Weights" need to put under the root directory.
 
 Using trained model for segmentation with our example images:
