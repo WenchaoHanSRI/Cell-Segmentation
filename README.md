@@ -24,8 +24,14 @@ Train the model using published dataset:
 python cellseg2finetune.py train --yaml=train.yaml
 ```
 
-The exteranl dataset has much larger imgae size, thus used multiprocssing for computing validation results, 
+For external dataset:
+Since the exteranl dataset has much larger imgae size, thus used multiprocssing for computing validation results, 
 the code utilize all the available cores. The code below is recommened when the computing resource has more that 4 CPU core to use. Much more cores (e.g. 48 or more) are recommened for efficiency.
+First, perform the segmentation:
+```
+python cellseg2finetune.py detect --yaml=Externalval.yaml
+```
+Second, validating the segmentation results against manual annotations:
 For speed, exteranl dataset validation:
 ```
 python DetectValFL2048_edit.py --yaml=ExternalVal.yaml
