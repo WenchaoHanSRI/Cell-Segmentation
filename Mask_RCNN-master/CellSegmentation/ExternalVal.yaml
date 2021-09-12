@@ -1,0 +1,3 @@
+input: TestData/FL2048size
+output: results/FLexternalsub
+ExpName: FLTrans2048ROIAllMINIMask
