@@ -26,7 +26,7 @@ python cellseg2finetune.py train --yaml=train.yaml
 
 For external dataset:
 
-Testing sample data can be downloaded via: https://drive.google.com/drive/folders/17zJ92-qxMwi15Fpa0lc9At6deYh604A2?usp=sharing. The raw dataset is obtained from https://warwick.ac.uk/fac/sci/dcs/research/tia/data/micronet. We made the following changes from the raw dataset: 1) we creat the color images from the raw dataset, 2) we expanded the original contours to allow touching contours. 
+Testing sample data can be downloaded via: https://drive.google.com/drive/folders/17zJ92-qxMwi15Fpa0lc9At6deYh604A2?usp=sharing. The raw dataset is obtained from https://warwick.ac.uk/fac/sci/dcs/research/tia/data/micronet. We made the following changes from the raw dataset: 1) we created the color images from the raw dataset, 2) we expanded the original contours to allow touching contours. 
 
 The downloaded data folder needs to put under the directory of TestData along with the other two datasets.
 
