@@ -1,4 +1,4 @@
 input: TestData\FL2048size
 subset: stage1_train
-output: results/FLexternalsub3
+output: results/FLexternal
 weights: Trained_Weights\External\FLBreTrans2048ROIAllMINIMask\mask_rcnn_cell_0039.h5
