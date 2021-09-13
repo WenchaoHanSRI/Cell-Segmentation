@@ -21,7 +21,7 @@ Users may change the val.yaml file to perform inferencing/validation for example
 
 Train the model using published dataset:
 
-Training data will be publiclly available when the paper is published.
+Training data will be publicly available when the paper is published.
 ```
 python cellseg2finetune.py train --yaml=train.yaml
 ```
