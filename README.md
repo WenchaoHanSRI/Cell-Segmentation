@@ -20,6 +20,7 @@ python cellseg2finetune.py val --yaml=val.yaml
 Users may change the val.yaml file to perform inferencing/validation for example images of breast cancer dataset.
 
 Train the model using published dataset:
+
 Training data will be publiclly available when the paper is published.
 ```
 python cellseg2finetune.py train --yaml=train.yaml
