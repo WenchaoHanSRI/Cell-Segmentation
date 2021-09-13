@@ -74,7 +74,7 @@ https://github.com/matterport/Mask_RCNN/issues/93
 ## Citation
 ```
 @misc{DeepCSeg_2021,
-  title={DeepCSeg, a CellProfiler plug-in for whole cell segmentation for immunofluorescence multiplexed images},
+  title={DeepCSeg: Cell segmentation for immunofluorescence multiplexed images using two-stage domain adaptation by pre-training a deep network with weak labels},
   author={Wenchao Han},
   year={2021},
   publisher={Github},
