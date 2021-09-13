@@ -70,3 +70,16 @@ The code was also tested on Windows 10 based machine.
 Training issue using Window machine is adapted based on the report:
 
 https://github.com/matterport/Mask_RCNN/issues/93
+
+## Citation
+```
+@misc{DeepCSeg_2021,
+  title={DeepCSeg, a CellProfiler plug-in for whole cell segmentation for immunofluorescence multiplexed images},
+  author={Wenchao Han},
+  year={2021},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/WenchaoHanSRI/DeepCSeg}},
+}
+```
+
